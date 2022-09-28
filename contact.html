@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+    <title>Will Seguin</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+<div class="topNav" id = "myTopNav">
+<a href="index.html">Home</a>
+<a href="news.html">News</a>
+<a class="active" href="contact.html">Contact</a>
+<a href="about.html">About</a>
+</div>
+
+<div class="container">
+    <div style="text-align:center">
+        <h2>Contact Me!</h2>
+        <p>I would love to hear from you, leave a message, and I'll get back to you as soon as possible:</p>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="contact2.png" style="width:100%">
+        </div>
+        <div class="column">
+            <form action= "thanYou.html">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something to me!" style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</div>
+<style>
+    .footer {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #35363a;
+        color: white;
+        text-align: center;
+        display: inline-block;
+    }
+</style>
+
+<div class="footer">
+    <p>Terms and Services - Privacy Policy</p>
+</div>
+</body>
+</html>
